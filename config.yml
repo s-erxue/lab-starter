@@ -31,10 +31,10 @@ steps:
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
 - title: Adds bold
  actions:
- - type: gate
-   left: '%payload.pull_request.title%'
-   operator: ===
-   right: Add name to README
+   - type: gate
+     left: '%payload.pull_request.title%'
+     operator: ===
+     right: "Creating the config file"
  description: Learner adds bold
  event: pull_request
  actions: # a list of the actions that will occur when the step is triggered by an event
