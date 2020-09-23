@@ -6,13 +6,19 @@ This is the paragraph to would describe the concept. It may link to other resour
 
 If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
 
-## Step X: Description
+## Step 1: Headers
 
-Here, we'll describe generally what the user is about to do.
+You can create a header like this:
+```markdown
+# Header Title
+```
+It renders:
+# Header Title
+More hash tags mean a smaller header
 
 ### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
+1. Write a header
 2. Step 2 in short sentence
 3. Step 3 in short sentence
 
