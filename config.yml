@@ -27,7 +27,7 @@ steps:
   event: pull_request
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: gate
-    left: '%payload.pull_request.title%
+    left: '%payload.pull_request.title%'
     operator: ===
     right: "Creating the config file"
     else:
